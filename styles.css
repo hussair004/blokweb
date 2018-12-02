@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    font-family: "SourceSansPro-Regular";
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #0C487B;
+    display: flex;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: -0.1em;
+    list-style: none;
+}
+
+nav ul li {
+    position: relative;
+    margin-bottom: -1em;
+    margin-right: 0.5em;
+    padding-left: 2.5em;
+    padding-top: 1.3em;
+}
+
+nav img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -1em;
+    width: 5em;
+    height: 5em;
+}
+
+nav ul a {
+    border: none;
+    display: block;
+    color: white;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+nav ul li:nth-of-type(2) a {
+    background-image: url(images/profile-2-white.png);
+}
+
+section img {
+    width: 10em;
+    height: 10em;
+}
+
+form fieldset {
+    border: none;
+}
+
+section > h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section div {
+    background-color: #F5F4F5;
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border: 1px solid black;
+}
+
+article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5em 0 0.5em;
+    margin-bottom: 0.9em;
+    margin-right: 1em;
+    color: #0C487B;
+    border-radius: 5px;
+    font-size: 1em;
+    position: relative;
+}
